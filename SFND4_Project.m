@@ -123,10 +123,9 @@ scatter(R+1,Mix_fft_max,'filled','r');
 hold off
 title('1D FFT');
 xlabel('Range (m)');
-ylabel('FFT Magnitude');
-axis ([1 201 0 1]);
+legend('Signal','Target Point');
+axis ([1 201 0 0.5]);
 grid;
-
 %% RANGE DOPPLER RESPONSE
 
 % The 2D FFT implementation is already provided here. This will run a 2DFFT
@@ -160,6 +159,7 @@ colorbar;
 title('2D FFT');
 xlabel('Doppler velocity (m/s)');
 ylabel('Range (m)');
+zlabel('dB');
 
 %% CFAR implementation
 
