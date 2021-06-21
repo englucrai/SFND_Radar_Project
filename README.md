@@ -1,5 +1,9 @@
 # SFND_Radar_Project
 
+<p align="center">
+  <img src="https://github.com/englucrai/SFND_Radar_Project/blob/main/SFND_Radar.jpg"/>
+</p>
+
 
 Project for tracking a vehicle through radar. Fast Fourier Transform, Convolution, and Constant False Alarm Rate (CFAR) are implemented to acquire the Doppler velocity and range estimations as well as filtering the results for better results.
 
@@ -65,5 +69,16 @@ The results are shown in the following Figures. The parameters used for CFAR imp
 #### Noise to Signal ratio offset
 - offset = 6
 
+<p align="center">
+  <img src="https://github.com/englucrai/SFND_Radar_Project/blob/main/figure1_1d_fft.jpg" alt="Sublime's custom image"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/englucrai/SFND_Radar_Project/blob/main/figure1_2d_fft.jpg" alt="Sublime's custom image"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/englucrai/SFND_Radar_Project/blob/main/figure1_2d_cfar.jpg" alt="Sublime's custom image"/>
+</p>
 
 
