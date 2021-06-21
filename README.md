@@ -23,7 +23,7 @@ The method adapts thresholding based on target surroundings so it can track an o
 
 The Range Doppler Map is a matrix containing Range and Relative Doppler Velocity. For each element, a location window is applied. The window's size is defined by the number of Guard and Training cells used, and it's important to notice that only the Training cells will be used to estimate the noise ratio of the surroundings of the explored area.
 
-Accordingly to the figure above, we can affirm that the location window dimensions are defined by `(2*Tr+2Gr+1)` x `(2Td+2Gd+1)`
+Accordingly to the figure above, we can affirm that the location window dimensions are defined by `(2Tr+2Gr+1)` x `(2Td+2Gd+1)`
 
 ## Steps for 2D CFAR process
 
