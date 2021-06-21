@@ -59,24 +59,28 @@ The results are shown in the following Figures. The parameters used for CFAR imp
 
 
 #### Guard cells dimension (range,doppler)
-- Gr = 4
-- Gd = 4
+- `Gr = 4`
+- `Gd = 4`
 
 #### Training cells (range, doppler)
-- Tr = 10 
-- Td = 8
+- `Tr = 10` 
+- `Td = 8`
 
 #### Noise to Signal ratio offset
-- offset = 6
+- `offset = 6`
 
+### 1D FFT
 <p align="center">
   <img src="https://github.com/englucrai/SFND_Radar_Project/blob/main/figure1_1d_fft.jpg" alt="Sublime's custom image"/>
 </p>
 
+### 2D FFT
 <p align="center">
   <img src="https://github.com/englucrai/SFND_Radar_Project/blob/main/figure1_2d_fft.jpg" alt="Sublime's custom image"/>
 </p>
 
+
+### 2D CFAR
 <p align="center">
   <img src="https://github.com/englucrai/SFND_Radar_Project/blob/main/figure1_2d_cfar.jpg" alt="Sublime's custom image"/>
 </p>
